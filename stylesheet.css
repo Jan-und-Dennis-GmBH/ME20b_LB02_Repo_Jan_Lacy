@@ -1,11 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Gothic 13 Std", sans-serif;
+    color: #222
+}
 
+.carousel-caption h1 {
+    text-shadow: 1px 1px 10px #000;
+}
 
+.btn-primary {
+    background-color: #40826D;
+    border: 2px solid #40826D;
+}
 
+.btn-primary:hover {
+    background-color: transparent;
+    border: 2px solid #40826D;
+    color: #40826D;
+}
 
+.jumbotron {
+    padding: 2rem;
+    border-radius: 0;
+}
 
+.btn-outline-secondary {
+    background-color: transparent;
+    border: 3px solid #40826D;
+    color: #40826D;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #40826D;
+    border: 3px solid #40826D;
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    border: 2px solid #40826D;
+    color: #40826D;
+}
+
+.btn-outline-success:hover {
+    background-color: #40826D;
+    border: 2px solid #40826D;
+}
+
+.welcome{
+    padding-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+}
+
+.connect {
+    margin-top:  5rem;
+}
+
+.fa-facebook {
+    color: #40826D;
+    margin-right: 0.5rem;
+}
+
+.fa-spotify {
+    color: #40826D;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.fa-instagram {
+    color: #40826D;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.fa-youtube {
+    color: #40826D;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
 
 
 
